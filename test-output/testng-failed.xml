@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.vtg.auto.reports.ExtentITestListenerClassAdapter"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.vtg.auto.vtghometestnew.VTGHomeTest1">
+        <methods>
+          <include name="VerifyLoginTest1"/>
+          <include name="beforeMethod"/>
+          <include name="afterTestSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUpClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtg.auto.vtghometestnew.VTGHomeTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
